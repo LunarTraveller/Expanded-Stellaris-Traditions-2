@@ -1,5 +1,7 @@
 Expanded Stellaris Traditions 2 - The Sequel
+
 Updated by MrWacko
+
 Originally created by Girion
 
 Features
@@ -25,6 +27,7 @@ Bug Reports
     - Please describe any steps you can take to reproduce the bug.
 
 Credits
+
 Girion
 - Maker of the original Expanded Stellaris Traditions. Sadly they are no longer maintaining original, hence me posting an update. This mod is theirs, I am simply a caretaker.
 
