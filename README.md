@@ -27,13 +27,16 @@ Bug Reports
 Credits
 Girion
 - Maker of the original Expanded Stellaris Traditions. Sadly they are no longer maintaining original, hence me posting an update. This mod is theirs, I am simply a caretaker.
+
 Birdy (Maker of the Plentiful Traditions Mod). Quite a few things in this mod are inspired by their work.
 - The theme of the Malice tree is their idea (but the content my own).
 - I renamed my biogenesis and faith trees to use Birdy's, better, names.
 - They came up with the idea to "collapse" the discovery tree to gain space.
 - They figured out how to make the scrollbar so you could fit more traditions in, I used that idea as well.
 - (There are a few more cases where we have traditions with the same name, these are coincidence)
+
 Maethydd
 - The tradition version of the old ethics Individualism/Collectivism traditions was first introduced in their tradition mod.
+
 Rokhmal
 - Have written a lot of very nice traditions descriptions for the mod.
