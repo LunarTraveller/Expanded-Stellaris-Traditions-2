@@ -1,7 +1,7 @@
 
 # All leaders will have a common trait-point value set in defines, which they use to grab traits
 
-# leader_trait = { general } - this tags the trait as a leader-trait and not a species-trait
+# leader_trait = { commander } - this tags the trait as a leader-trait and not a species-trait
 # initial = no - if set to no, this trait can not be granted to leaders when they are generated
 # leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
 # requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
@@ -21,8 +21,8 @@ leader_trait_restrained_est_2 = {
 	leader_potential_add = {
 		NOT = { from = { has_authority = "auth_machine_intelligence" } }
 	}	
-	leader_trait = { general }
-	leader_class = { general }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_butcher" }
 	initial = no
 	randomized = no
@@ -34,8 +34,8 @@ leader_trait_charismatic_est_2 = {
 	modifier = {
 		army_morale = 0.50
 	}
-	leader_trait = { general }
-	leader_class = { general }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_charismatic" }
 	initial = no
 	randomized = no
@@ -48,8 +48,8 @@ leader_trait_butcher_est_2 = {
 		army_damage_mult = 0.20
 		army_collateral_damage_mult = 0.50
 	}
-	leader_trait = { general }
-	leader_class = { general }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_armchair_commander" }
 	initial = no
 	randomized = no
@@ -62,8 +62,8 @@ leader_trait_glory_seeker_est_2 = {
 		army_morale = 0.2
 		army_damage_mult = 0.10
 	}
-	leader_trait = { general }
-	leader_class = { general }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_armchair_commander" }
 	initial = no
 	randomized = no
@@ -75,8 +75,8 @@ leader_trait_army_logistician_est_2 = {
 	modifier = {
 		armies_upkeep_mult = -0.3
 	}
-	leader_trait = { general }
-	leader_class = { general }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_army_logistician" }
 	initial = no
 	randomized = no

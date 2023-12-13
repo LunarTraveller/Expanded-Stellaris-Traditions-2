@@ -1,6 +1,6 @@
 namespace = est_administratum
 
-#Administratum 2, bonus trait to governors.
+#Administratum 2, bonus trait to officials.
 country_event = {
 	id = est_administratum.1
 	hide_window = yes
@@ -9,7 +9,7 @@ country_event = {
 	trigger = {
 		has_active_tradition = tr_est_administratum_2
 		from = {
-			leader_class = governor
+			leader_class = official
 		}
 	}
 	

@@ -974,16 +974,14 @@ tr_est_academy_5 = {
 	modifier = {
 		ship_starting_experience_add = 200
 		army_starting_experience_add = 200
-		admiral_skill_levels = 1
-		general_skill_levels = 1
+		commander_skill_levels = 1
 	}
 	
 	on_enabled = {
 		every_owned_leader = {
 			limit = {
 				Or = {
-					leader_class = admiral
-					leader_class = general
+					leader_class = commander
 				}
 			}
 			add_experience = 200

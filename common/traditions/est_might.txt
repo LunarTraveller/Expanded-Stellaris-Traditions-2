@@ -51,8 +51,7 @@ tr_est_might_2 = {
 	}
 
 	modifier = {
-		general_skill_levels = 2
-		leader_generals_cost_mult = -0.50
+		commander_skill_levels = 2
 		army_morale_damage_mult = 0.20
 	}
 

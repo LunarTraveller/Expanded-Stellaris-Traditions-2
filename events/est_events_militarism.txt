@@ -50,7 +50,7 @@ country_event = {
 	trigger = {
 		has_tradition = tr_est_militarism_5
 		from = {
-			leader_class = admiral 
+			leader_class = commander 
 			Not = {
 				has_leader_flag = flag_est_militarism_5
 			}

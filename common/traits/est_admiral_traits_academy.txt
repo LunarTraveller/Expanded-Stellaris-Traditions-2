@@ -3,7 +3,7 @@
 
 # leader_trait = yes - this tags the trait as a leader-trait and not a species-trait
 # initial = no - if set to no, this trait can not be granted to leaders when they are generated
-# leader_class = { admiral scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
+# leader_class = { commander scientist }  -- OR  - if not set, it can be given to all leader-types except Rulers
 # requires_traits = { trait_psionic } -- AND - leader-trait can only be randomly given on generation if the leaders species has this trait
 # requires_governments = { despotic_hegemony ai_overlordship } -- OR - leader-trait can only be randomly given on generation if the Empire has this type of government form
 # prerequisites = { tech_psionic_theory } - AND - leader-trait can only be given if the technology specified has been researched by the Empire
@@ -19,8 +19,8 @@ leader_trait_trickster_est_2 = {
 		ship_emergency_ftl_mult = -0.25
 		ship_disengage_chance_mult = 0.50
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_unyielding" }
 	initial = no
 	randomized = no
@@ -32,8 +32,8 @@ leader_trait_fleet_logistician_est_2 = {
 	modifier = {
 		ships_upkeep_mult = -0.2
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	initial = no
 	randomized = no
 }
@@ -45,8 +45,8 @@ leader_trait_engineer_est_2 = {
 		ship_hull_regen_add_perc = 0.005
 		ship_armor_regen_add_perc = 0.01
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	prerequisites = { tech_doctrine_fleet_size_3 }
 	initial = no
 	randomized = no
@@ -59,8 +59,8 @@ leader_trait_aggressive_est_2 = {
 		ship_fire_rate_mult = 0.10
 		ship_speed_mult = 0.20
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_cautious" }
 	initial = no
 	randomized = no
@@ -72,8 +72,8 @@ leader_trait_cautious_est_2 = {
 	modifier = {
 		ship_weapon_range_mult = 0.40
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_aggressive" }
 	initial = no
 	randomized = no
@@ -87,8 +87,8 @@ leader_trait_scout_est_2 = {
 		ship_hyperlane_range_add = 3
 		ship_speed_mult = 0.2
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	initial = no
 	randomized = no
 }
@@ -101,8 +101,8 @@ leader_trait_unyielding_est_2 = {
 		ship_weapon_damage = 0.10
 		ship_disengage_chance_mult = -0.50
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_nervous" "leader_trait_trickster" }
 	initial = no
 	randomized = no
@@ -115,8 +115,8 @@ leader_trait_gale_speed_est_2 = {
 		ship_evasion_mult = 0.10
 		ship_speed_mult = 0.4
 	}
-	leader_trait = { admiral }
-	leader_class = { admiral }
+	leader_trait = { commander }
+	leader_class = { commander }
 	opposites = { "leader_trait_lethargic" }
 	initial = no
 	randomized = no

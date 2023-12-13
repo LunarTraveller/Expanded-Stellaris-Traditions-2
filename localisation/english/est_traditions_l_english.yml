@@ -292,7 +292,7 @@ tradition_est_chivalry:0 "Chivalry"
 tradition_est_chivalry_desc:0 "Our ideals are neither too bent nor broken. Whatever happens, without wavering, we must be virtuous."
 
 tr_est_chivalry_adopt:0 "Chivalry Traditions"
-tr_est_chivalry_adopt_desc:0 "All leaders gain the §Y$leader_trait_admiral_est_chivalry$§! trait which provides minor bonuses. §YGeneral§! and §YAdmirals§! who wins a battle have a chance to gain the §Y$leader_trait_admiral_est_chivalry_hero$§! trait which provides major bonuses (chance to gain the trait depends on the battle circumstances)."
+tr_est_chivalry_adopt_desc:0 "All leaders gain the §Y$leader_trait_commander_est_chivalry$§! trait which provides minor bonuses. §YGeneral§! and §YAdmirals§! who wins a battle have a chance to gain the §Y$leader_trait_commander_est_chivalry_hero$§! trait which provides major bonuses (chance to gain the trait depends on the battle circumstances)."
 
 tr_est_chivalry_1:0 "Rules of Engagement"
 tr_est_chivalry_1_delayed:0 "Fleet engagements follow a strict code of conduct. To break this code of chivalry would cast disdain upon any admiral."

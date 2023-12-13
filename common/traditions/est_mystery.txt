@@ -110,24 +110,19 @@ tr_est_mystery_5 = {
 				NOR = {
 					has_trait =	leader_trait_admiral_est_mystic
 					has_trait =	leader_trait_general_est_mystic
-					has_trait =	leader_trait_governor_est_mystic
+					has_trait =	leader_trait_official_est_mystic
 					has_trait =	leader_trait_scientist_est_mystic
 					has_trait =	leader_trait_ruler_est_mystic
 				}
 			}
 			if = {
-				limit = { leader_class = admiral }
+				limit = { leader_class = commander }
 				add_trait = leader_trait_admiral_est_mystic
 				add_ruler_trait = leader_trait_ruler_est_mystic
 			}
 			if = {
-				limit = { leader_class = general }
-				add_trait = leader_trait_general_est_mystic
-				add_ruler_trait = leader_trait_ruler_est_mystic
-			}
-			if = {
-				limit = { leader_class = governor }
-				add_trait = leader_trait_governor_est_mystic
+				limit = { leader_class = official }
+				add_trait = leader_trait_official_est_mystic
 				add_ruler_trait = leader_trait_ruler_est_mystic
 			}
 			if = {
@@ -146,24 +141,19 @@ tr_est_mystery_5 = {
 				NOR = {
 					has_trait = leader_trait_admiral_est_mystic
 					has_trait = leader_trait_general_est_mystic
-					has_trait = leader_trait_governor_est_mystic
+					has_trait = leader_trait_official_est_mystic
 					has_trait = leader_trait_scientist_est_mystic
 					has_trait = leader_trait_ruler_est_mystic
 				}
 			}
 			if = {
-				limit = { leader_class = admiral }
+				limit = { leader_class = commander }
 				add_trait = leader_trait_admiral_est_mystic
 				add_ruler_trait = leader_trait_ruler_est_mystic
 			}
 			if = {
-				limit = { leader_class = general }
-				add_trait = leader_trait_general_est_mystic
-				add_ruler_trait = leader_trait_ruler_est_mystic
-			}
-			if = {
-				limit = { leader_class = governor }
-				add_trait = leader_trait_governor_est_mystic
+				limit = { leader_class = official }
+				add_trait = leader_trait_official_est_mystic
 				add_ruler_trait = leader_trait_ruler_est_mystic
 			}
 			if = {

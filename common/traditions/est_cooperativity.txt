@@ -99,24 +99,19 @@ tr_est_cooperativity_4 = {
 				Not = {
 					has_trait =	leader_trait_admiral_est_cognition_central
 					has_trait =	leader_trait_general_est_cognition_central
-					has_trait =	leader_trait_governor_est_cognition_central
+					has_trait =	leader_trait_official_est_cognition_central
 					has_trait =	leader_trait_scientist_est_cognition_central
 					has_trait =	leader_trait_ruler_est_cognition_central
 				}
 			}
 			if = {
-				limit = { leader_class = admiral }
+				limit = { leader_class = commander }
 				add_trait = leader_trait_admiral_est_cognition_central
 				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {
-				limit = { leader_class = general }
-				add_trait = leader_trait_general_est_cognition_central
-				add_ruler_trait = leader_trait_ruler_est_cognition_central
-			}
-			if = {
-				limit = { leader_class = governor }
-				add_trait = leader_trait_governor_est_cognition_central
+				limit = { leader_class = official }
+				add_trait = leader_trait_official_est_cognition_central
 				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {
@@ -134,24 +129,19 @@ tr_est_cooperativity_4 = {
 				Not = {
 					has_trait = leader_trait_admiral_est_cognition_central
 					has_trait = leader_trait_general_est_cognition_central
-					has_trait = leader_trait_governor_est_cognition_central
+					has_trait = leader_trait_official_est_cognition_central
 					has_trait = leader_trait_scientist_est_cognition_central
 					has_trait = leader_trait_ruler_est_cognition_central
 				}
 			}
 			if = {
-				limit = { leader_class = admiral }
+				limit = { leader_class = commander }
 				add_trait = leader_trait_admiral_est_cognition_central
 				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {
-				limit = { leader_class = general }
-				add_trait = leader_trait_general_est_cognition_central
-				add_ruler_trait = leader_trait_ruler_est_cognition_central
-			}
-			if = {
-				limit = { leader_class = governor }
-				add_trait = leader_trait_governor_est_cognition_central
+				limit = { leader_class = official }
+				add_trait = leader_trait_official_est_cognition_central
 				add_ruler_trait = leader_trait_ruler_est_cognition_central
 			}
 			if = {

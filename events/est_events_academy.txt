@@ -564,71 +564,6 @@ country_event = {
 						set_leader_flag = est_academy_finish_upgraded_trait_ruler
 					}	
 				}
-			}
-			if = {
-				limit = {
-					leader_class = general
-					Not = {
-						has_leader_flag = est_academy_finish_upgraded_trait_normal
-					}
-				}
-				random_list = {
-					1 = {
-						modifier = {
-							factor = 0
-							Not = {
-								has_trait = leader_trait_restrained
-							}
-						}
-						remove_trait = leader_trait_restrained
-						add_trait = leader_trait_restrained_est_2
-						set_leader_flag = est_academy_finish_upgraded_trait_normal
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							Not = {
-								has_trait = leader_trait_charismatic
-							}
-						}
-						remove_trait = leader_trait_charismatic
-						add_trait = leader_trait_charismatic_est_2
-						set_leader_flag = est_academy_finish_upgraded_trait_normal
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							Not = {
-								has_trait = leader_trait_butcher
-							}
-						}
-						remove_trait = leader_trait_butcher
-						add_trait = leader_trait_butcher_est_2
-						set_leader_flag = est_academy_finish_upgraded_trait_normal
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							Not = {
-								has_trait = leader_trait_glory_seeker
-							}
-						}
-						remove_trait = leader_trait_glory_seeker
-						add_trait = leader_trait_glory_seeker_est_2
-						set_leader_flag = est_academy_finish_upgraded_trait_normal
-					}
-					1 = {
-						modifier = {
-							factor = 0
-							Not = {
-								has_trait = leader_trait_army_logistician
-							}
-						}
-						remove_trait = leader_trait_army_logistician
-						add_trait = leader_trait_army_logistician_est_2
-						set_leader_flag = est_academy_finish_upgraded_trait_normal
-					}
-				}
 			}	
 			if = {
 				limit = {
@@ -862,7 +797,7 @@ country_event = {
 			}						
 			if = {
 				limit = {
-					leader_class = admiral
+					leader_class = commander
 					Not = {
 						has_leader_flag = est_academy_finish_upgraded_trait_normal
 					}
@@ -960,7 +895,7 @@ country_event = {
 			}
 			if = {
 				limit = {
-					leader_class = governor
+					leader_class = official
 					Not = {
 						has_leader_flag = est_academy_finish_upgraded_trait_normal
 					}

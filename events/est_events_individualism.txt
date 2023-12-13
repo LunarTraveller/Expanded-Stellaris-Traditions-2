@@ -36,7 +36,7 @@ country_event = {
 			}
 			And = {
 				has_active_tradition = tr_est_individualism_2
-				from = { leader_class = admiral }
+				from = { leader_class = commander }
 			}
 		}
 	}
@@ -51,7 +51,7 @@ country_event = {
 					}
 					And = {
 						owner = { has_active_tradition = tr_est_individualism_2 }
-						leader_class = admiral
+						leader_class = commander
 					}
 				}
 				Or = {

@@ -7,7 +7,7 @@ tr_est_perseverance_adopt = {
 
 tr_est_perseverance_finish = {
 	modifier = {	
-		leader_age = 25
+		leader_lifespan_add = 25
 		ascension_perks_add = 1
 	}
 	

@@ -1,6 +1,7 @@
 tr_est_venerability_adopt = {
 	modifier = {
-		leader_age = 25
+		leader_lifespan_add = 25
+		leader_
 	}
 	
 	tradition_swap = {

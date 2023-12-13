@@ -1,6 +1,6 @@
 namespace = est_confederacy
 
-#Confederacy 2, gives governor the special trait.
+#Confederacy 2, gives official the special trait.
 country_event = {
 	id = est_confederacy.1
 	hide_window = yes
@@ -9,13 +9,13 @@ country_event = {
 	trigger = {
 		has_active_tradition = tr_est_confederacy_2
 		from = {
-			leader_class = governor
-			Not = { has_trait = leader_trait_governor_est_confederacy_2 }
+			leader_class = official
+			Not = { has_trait = leader_trait_official_est_confederacy_2 }
 		}
 	}
 
 	immediate = {
-		from = { add_trait = leader_trait_governor_est_confederacy_2 }
+		from = { add_trait = leader_trait_official_est_confederacy_2 }
 	}
 }
 

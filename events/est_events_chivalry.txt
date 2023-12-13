@@ -10,9 +10,9 @@ country_event = {
 		has_active_tradition = tr_est_chivalry_adopt
 		from = {
 			Not = {
-				has_trait = leader_trait_admiral_est_chivalry
+				has_trait = leader_trait_commander_est_chivalry
 				has_trait = leader_trait_general_est_chivalry
-				has_trait = leader_trait_governor_est_chivalry
+				has_trait = leader_trait_official_est_chivalry
 				has_trait = leader_trait_scientist_est_chivalry
 			}		
 		}
@@ -21,18 +21,13 @@ country_event = {
 	immediate = {
 		from = {
 			if = {
-				limit = { leader_class = admiral }
-				add_trait = leader_trait_admiral_est_chivalry
+				limit = { leader_class = commander }
+				add_trait = leader_trait_commander_est_chivalry
 				break = yes
 			}
 			if = {
-				limit = { leader_class = general }
-				add_trait = leader_trait_general_est_chivalry
-				break = yes
-			}
-			if = {
-				limit = { leader_class = governor }
-				add_trait = leader_trait_governor_est_chivalry
+				limit = { leader_class = official }
+				add_trait = leader_trait_official_est_chivalry
 				break = yes
 			}
 			if = {
@@ -54,9 +49,9 @@ country_event = {
 		has_active_tradition = tr_est_chivalry_adopt
 		from = {
 			Not = {
-				has_trait = leader_trait_admiral_est_chivalry
+				has_trait = leader_trait_commander_est_chivalry
 				has_trait = leader_trait_general_est_chivalry
-				has_trait = leader_trait_governor_est_chivalry
+				has_trait = leader_trait_official_est_chivalry
 				has_trait = leader_trait_scientist_est_chivalry
 			}		
 		}
@@ -65,20 +60,14 @@ country_event = {
 	immediate = {
 		from = {
 			if = {
-				limit = { leader_class = admiral }
-				add_trait = leader_trait_admiral_est_chivalry
+				limit = { leader_class = commander }
+				add_trait = leader_trait_commander_est_chivalry
 				add_ruler_trait = leader_trait_ruler_est_chivalry
 				break = yes
 			}
 			if = {
-				limit = { leader_class = general }
-				add_trait = leader_trait_general_est_chivalry
-				add_ruler_trait = leader_trait_ruler_est_chivalry
-				break = yes
-			}
-			if = {
-				limit = { leader_class = governor }
-				add_trait = leader_trait_governor_est_chivalry
+				limit = { leader_class = official }
+				add_trait = leader_trait_official_est_chivalry
 				add_ruler_trait = leader_trait_ruler_est_chivalry
 				break = yes
 			}
@@ -203,7 +192,7 @@ country_event = {
 					9 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -219,7 +208,7 @@ country_event = {
 					6 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -235,7 +224,7 @@ country_event = {
 					3 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -251,7 +240,7 @@ country_event = {
 					1 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -263,7 +252,7 @@ country_event = {
 				1 = {}
 				3 = {
 					leader = {
-						add_trait = leader_trait_admiral_est_chivalry_hero
+						add_trait = leader_trait_commander_est_chivalry_hero
 						add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 					
 					}
@@ -310,7 +299,7 @@ fleet_event = {
 					9 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -326,7 +315,7 @@ fleet_event = {
 					6 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -342,7 +331,7 @@ fleet_event = {
 					3 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -360,7 +349,7 @@ fleet_event = {
 					1 = {}
 					1 = {
 						leader = {
-							add_trait = leader_trait_admiral_est_chivalry_hero
+							add_trait = leader_trait_commander_est_chivalry_hero
 							add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 						
 						}
@@ -372,7 +361,7 @@ fleet_event = {
 				1 = {}
 				3 = {
 					leader = {
-						add_trait = leader_trait_admiral_est_chivalry_hero
+						add_trait = leader_trait_commander_est_chivalry_hero
 						add_ruler_trait = leader_trait_ruler_est_chivalry_hero
 					
 					}
