@@ -1,0 +1,78 @@
+[h1]Features[/h1]
+[list]
+[*] 44 new tradition trees added.
+[*] Extensive use of tradition swapping. 
+[list]
+[*] Playing a hive-mind, or an authoritarian dictatorship? In that case, liberal democracy style traditions will be swapped out for more fitting stuff (what exactly depends on what you play).
+[*] Not using Robots? Traditions giving bonuses to robots will give different bonuses. Same things for slavery, megastructures etc.
+[*] Theme changing with your empire. The Order tree will be very different for a Slaving Autocracy and an Egalitan empire.[/list]
+[*] Built-in AI support. Either the AI is able to use a tradition properly, or they will have an easier-to-use swap giving a corresponding bonus.
+[*] Traditions do not only contains passive bonuses, more interesting effects, such as:
+[list]
+[*] Bonuses depending on your playstyle, conditioned on fulfilling special conditions. 
+[*] Adding new buildings, edicts, jobs, policies, technologies, traits, etc.
+[*] Gain resources for destroying enemy ships, raid neighbouring empires, pick virtues for your leaders, and much more interesting stuff.[/list]
+[*] Unique icons, tree layouts, and well-written flavour texts for all traditions.
+[*] Full compatibility with other mods.[/list]
+
+[h1]Important Information - Please Read[/h1]
+[list]
+[*] The full list of traditions and their effect can be found on [url=https://steamcommunity.com/workshop/filedetails/discussion/946222466/1368380298845330220/]this description page[/url]. This includes swaps and information which might not be revealed from just looking at the description. If you want to min-max, read this. Probably read it either way.
+[*] Please read the "Providing Bug Reports" section before providing a bug report.
+[*] Patch 3.1 detaches mods which adds tradition trees from mods which adds more slots. This mod only adds new trees. If you want to increase the number of traditions slots I recommend [url=https://steamcommunity.com/workshop/filedetails/?id=2603967089]Lots of Traditions[/url]
+[*] Certain traditions have passive negative effects on other empires (like penalties to rivals). The AI does not use them, but you can make it use them using an option in the "common/scrippted_triggers/est_options.txt" file.
+[*] Many tradition trees are disabled if you do not have a matching empire. If you want to enable all traditions independently of this (for you, the AI will still keep restrictions), you can do so using an option in the "common/scrippted_triggers/est_options.txt" file.
+[*] "The Librarian" tradition is not actively bad, please read the description properly.
+[*] Please provide feedback and bug reports for my ascension perk mod at [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1067631798]that mod's page[/url].
+[*]If you use this mod as well as many other mods, you probably should use [url=https://steamcommunity.com/workshop/filedetails/?id=1688887083]this mod[/url]
+[*]For non-English languages, localisation is provided in English only (translation mods are encouraged).[/list]
+
+[h1]Providing Bug Reports[/h1]
+Please report all bugs that you find. However, it would be very helpful if you could follow these steps to make it easier for me to fix the bug:
+[list]
+[*]Please report your bugs [url=https://steamcommunity.com/workshop/filedetails/discussion/946222466/1368380934255352546/]at this discussion page[/url]. I can't always fix bugs as they are reported, and if you only report them in the main discussion they very easily get swamped by other comments by the time I can look at them.
+[*] Please describe what is the problem. "X doesn't work" is not very helpful.
+[*] Please provide a screenshot, it is very helpful.
+[*] Please try and confirm whenever the bug persists with only this mod present.[/list]
+
+[h1]Expanded Stellaris Ascension Perks[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1067631798]My other mod which adds 45 new Ascension Perks to the game[/url]. Lots of interesting perks included (rather than flat bonus modifiers). Please check it out.
+
+[h1]Giving Input[/h1]
+The vast majority of all playthroughs with this mod are not done by me, to make it as good as possible I need all the input I can get. Please come with any input that you have, a large amount of the input I receive actually have real input on this mod. Please note that there are appropriate pages at [url=https://steamcommunity.com/sharedfiles/filedetails/discussions/946222466]the discussions tab of this mod[/url] for each type of input.
+[list]
+[*] [b]Balance:[/b] While top priority has been to come up with interesting themes and traditions for all trees I do believe this is not incompatible with having a balanced mod. All input on which trees/traditions you find too strong to weak is appreciated (some traditions might be left weaker to offset stronger traditions in the same tree, but all trees should be roughly balanced.
+[*] [b]Bugs:[/b] I test everything that I upload. However, this mod gets quite complex and in certain cases, there might be a bug. There is also a lot of stuff in it so I've probably missed a few things as well. Right now it should be quite solid, with the next update there might be a few new ones though. Please report!
+[*] [b]Spelling:[/b] English is not my first language (however I try to check everything with a spell checker). If you find some error, tell me and I will fix it.
+[*] [b]Suggestions:[/b] Have any cool ideas for new traditions? Have any ideas for new trees. I am open to suggestions. No promises but if you have something I will think about it at least.
+[*] [b]Themes:[/b] Do you like the themes of the traditions? Are there any one of them that you don't think is clear enough? I think the RP part is important, so please come with any input you have on this. Maybe you have an idea for a more fitting name for a tree or tradition?
+[*] [b]Icons:[/b] Since patch 3.1 each tradition tree is associated with an icon (in the top left corner). I currently have copied from the vanilla tradition, but if anyone could provide some custom made ones for the mod I would be very grateful. 
+[*] [b]Translation:[/b] English is the only (non-obscure) language that I know well, so that is the only language I can provide this mod in. If you want to provide a translation I would encourage that.[/list]
+
+[h1]Credits[/h1]
+[b]Birdy[/b] (Maker of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=903007094]Plentiful Traditions Mod[/url])
+Quite a few things in this mod is inspired by their work.
+[list]
+[*] The theme of the Malice tree is their idea (but the content my own).
+[*] I renamed my biogenesis and faith trees to use Birdy's, better, names.
+[*] They came up with the idea to "collapse" the discovery tree to gain space.
+[*] They figured out how to make the scrollbar so you could fit more traditions in, I used that idea as well.[/list]
+(There are a few more cases where we have traditions with the same name, these are coincidence)
+[b]Maethydd[/b]
+The tradition version of the old ethics Individualism/Collectivism traditions was first introduced in their tradition mod.
+[b]Rokhmal[/b]
+Have written a lot of very nice traditions descriptions for the mod.
+
+[h1]Thanks[/h1]
+[b]Birdy[/b]
+For being cool with me using some of their ideas.
+[b]The guys in the Stellaris Mod Discord Channel[/b]
+Got lots of help here.
+[b]MightNight[/b]
+Miscellaneous support and suggestion.
+[b]Mayonnaiz[/b]
+Miscellaneous suggestion.
+[b]The guys in the Stellaris Mod Forum[/b]
+Also gave a few tips.
+[b]The creators of CWTools for Paradox Modding[/b]
+This seriously makes the modding process three times easier.

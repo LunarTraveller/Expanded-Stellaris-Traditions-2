@@ -1,0 +1,164 @@
+country_base = {
+	generate_mult_modifiers = {
+		produces
+	}
+}
+
+megastructures = {
+    generate_mult_modifiers = {
+		cost
+        produces
+	}
+}
+
+ship_components = {
+    generate_mult_modifiers = {
+		cost
+	}                        
+}
+
+station_researchers = {
+	generate_mult_modifiers = {
+		cost
+	}
+}
+
+station_observers = {
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+station_observer_missions = {
+	generate_mult_modifiers = {
+		produces
+	}
+}
+
+starbases = {
+	generate_mult_modifiers = {
+		upkeep
+        cost
+	}
+}
+
+starbase_stations = {
+	triggered_upkeep_modifier = {
+		key = starbase_outpost
+		modifier_types = {
+			mult
+		}
+		trigger = {
+			is_scope_valid = yes #When called from ship designer the design is not valid yet.
+			is_ship_size = starbase_outpost
+		}
+	}
+}
+
+planets = {
+	generate_mult_modifiers = {
+		produces
+	}
+}
+
+planet_districts_cities = {
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+planet_farmers = {
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+planet_technician = {
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+planet_bureaucrats = {
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+planet_metallurgists = {
+	generate_add_modifiers = {
+		produces
+        upkeep
+	}
+}
+
+planet_culture_workers = {
+	generate_add_modifiers = {
+		produces
+        upkeep
+	}
+}
+
+planet_synapse_drones = {
+	generate_add_modifiers = {
+		produces
+        upkeep
+	}
+}
+
+planet_entertainers = {
+	generate_add_modifiers = {
+		produces
+	}
+}
+
+planet_priests = {
+	generate_add_modifiers = {
+		produces
+        upkeep
+	}
+	generate_mult_modifiers = {
+		produces
+		upkeep
+	}
+}
+
+planet_doctors = {
+	generate_add_modifiers = {
+		produces
+        upkeep
+	}
+}
+
+pop_category_slave = {
+    generate_mult_modifiers = {
+        produces
+	}
+}
+
+pop_category_robot = {
+    generate_mult_modifiers = {
+        produces  
+		upkeep
+	}
+}
+
+leader_generals = {
+    generate_mult_modifiers = {
+		cost
+		upkeep
+	}
+}
+
+leader_governors = {
+    generate_mult_modifiers = {
+		cost
+		upkeep
+	}
+}
+
+rivalries = {
+    generate_mult_modifiers = {
+		produces
+	}                        
+}
